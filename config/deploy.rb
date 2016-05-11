@@ -2,7 +2,7 @@
 lock '3.5.0'
 
 set :application, 'RailsBlog'
-set :repo_url, 'git@github.com:roywei/RailsBlog.git'
+set :repo_url, 'https://github.com/roywei/RailsBlog.git'
 set :branch, :master
 set :deploy_to, '/home/deploy/RailsBlog'
 set :pty, true
