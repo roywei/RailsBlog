@@ -1,0 +1,10 @@
+<p class="ex1">
+  <%= comment.commenter %>
+  ：
+</p>
+
+<p class='ex2'>
+  <%= comment.body %>
+  <%= comment.created_at.localtime %>
+  <%= link_to '删除评论', [comment.article, comment], method: :delete, data: {confirm: '确定删除吗？' } %>
+</p>
